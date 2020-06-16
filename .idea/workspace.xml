@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a6cbf5fd-b120-4fb9-8240-0061c11edf23" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/includes.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/includes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/quantity_in_orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/quantity_in_orders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/ticket.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/methods/Quantity_in_orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/methods/Quantity_in_orders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/methods/loadingformbd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/methods/view_maintenance_costs.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/methods/view_maintenance_costs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/methods/view_total_value_applications.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/methods/view_total_value_applications.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/screenshot_img/15876532681.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/screenshot_img/15876533317.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/screenshot_img/15876534745.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/screenshot_img/15876712321.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/screenshot_img/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/view1.HTML" beforeDir="false" afterPath="$PROJECT_DIR$/public/view1.HTML" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/view1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/public/view1.docx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="site: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="site: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="site: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="site: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ZYH0j4w8J98Y2xezqxpF2Jx0o8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6cbf5fd-b120-4fb9-8240-0061c11edf23" name="Default Changelist" comment="" />
+      <created>1585008885232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585008885232</updated>
+      <workItem from="1585008886744" duration="885000" />
+      <workItem from="1585052179140" duration="12784000" />
+      <workItem from="1585092302604" duration="827000" />
+      <workItem from="1585148449090" duration="1936000" />
+      <workItem from="1585255303294" duration="6490000" />
+      <workItem from="1585347559259" duration="4255000" />
+      <workItem from="1585397554377" duration="5582000" />
+      <workItem from="1585434165770" duration="394000" />
+      <workItem from="1585434622764" duration="3645000" />
+      <workItem from="1585502812906" duration="2873000" />
+      <workItem from="1585517726064" duration="4365000" />
+      <workItem from="1585570078664" duration="611000" />
+      <workItem from="1585583760286" duration="4016000" />
+      <workItem from="1585590217026" duration="2523000" />
+      <workItem from="1585604176181" duration="4700000" />
+      <workItem from="1585666353113" duration="617000" />
+      <workItem from="1585738153067" duration="2224000" />
+      <workItem from="1585741336308" duration="18110000" />
+      <workItem from="1585824665797" duration="6505000" />
+      <workItem from="1585938435880" duration="14380000" />
+      <workItem from="1585996987499" duration="17949000" />
+      <workItem from="1586096367777" duration="21704000" />
+      <workItem from="1586182669396" duration="5587000" />
+      <workItem from="1586514773232" duration="2254000" />
+      <workItem from="1586541027083" duration="3918000" />
+      <workItem from="1586554889060" duration="10090000" />
+      <workItem from="1586623254871" duration="3355000" />
+      <workItem from="1586629564316" duration="3563000" />
+      <workItem from="1586684686535" duration="20662000" />
+      <workItem from="1586789898736" duration="22371000" />
+      <workItem from="1586861345503" duration="8752000" />
+      <workItem from="1586952090844" duration="2410000" />
+      <workItem from="1586959399154" duration="24228000" />
+      <workItem from="1587036899334" duration="30429000" />
+      <workItem from="1587121614138" duration="29856000" />
+      <workItem from="1587205111448" duration="3340000" />
+      <workItem from="1587219645574" duration="21308000" />
+      <workItem from="1587297102805" duration="26412000" />
+      <workItem from="1587378372124" duration="22452000" />
+      <workItem from="1587425871548" duration="6115000" />
+      <workItem from="1587467053820" duration="11938000" />
+      <workItem from="1587488893200" duration="65065000" />
+      <workItem from="1587642625328" duration="23707000" />
+      <workItem from="1587688328781" duration="39000" />
+      <workItem from="1591993251209" duration="1172000" />
+      <workItem from="1591994521821" duration="10978000" />
+      <workItem from="1592038341151" duration="71907000" />
+      <workItem from="1592229681818" duration="2371000" />
+      <workItem from="1592232120609" duration="3686000" />
+      <workItem from="1592236296323" duration="66588000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="263" y="19" key="#CLI_Interpreters" timestamp="1585517385626">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="19" key="#CLI_Interpreters/0.0.1366.728@0.0.1366.728" timestamp="1585517385626" />
+    <state x="390" y="0" key="#PHP" timestamp="1585785486432">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="0" key="#PHP/0.0.1366.728@0.0.1366.728" timestamp="1585785486432" />
+    <state x="274" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585784640391">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="274" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585784640391" />
+    <state x="533" y="219" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592263424502">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="533" y="219" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1592263424502" />
+    <state x="502" y="77" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592004829832">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="502" y="77" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1592004829832" />
+    <state x="363" y="169" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1585776187062">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="169" key="DUMP_DIALOG_DIMENSION_KEY/0.0.1366.728@0.0.1366.728" timestamp="1585776187062" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1585785022334">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1366.728@0.0.1366.728" timestamp="1585785022334" />
+    <state x="521" y="136" key="FileChooserDialogImpl" timestamp="1592157821744">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587646637797" />
+    <state x="521" y="136" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1592157821744" />
+    <state width="905" height="180" key="GridCell.Tab.0.bottom" timestamp="1585959715038">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585959715038" />
+    <state width="905" height="180" key="GridCell.Tab.0.center" timestamp="1585959715037">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585959715037" />
+    <state width="905" height="180" key="GridCell.Tab.0.left" timestamp="1585959715037">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585959715037" />
+    <state width="905" height="180" key="GridCell.Tab.0.right" timestamp="1585959715037">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585959715037" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1585784687646">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1585784687646" />
+    <state x="639" y="339" key="NewPhpFileDialog" timestamp="1592275919457">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="568" y="296" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1587496785691" />
+    <state x="639" y="339" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1592275919457" />
+    <state width="524" height="446" key="SwitcherDM" timestamp="1586809983146">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="524" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1586809983146" />
+    <state x="576" y="254" width="326" height="234" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1585607682967">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="576" y="254" width="326" height="234" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1585607682967" />
+    <state x="479" y="189" width="408" height="348" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1585949909426">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="479" y="189" width="408" height="348" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1366.728@0.0.1366.728" timestamp="1585949909426" />
+    <state x="399" y="5" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1586547664571">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="399" y="5" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1586547664571" />
+    <state x="541" y="110" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1585061539644">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="541" y="110" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1366.728@0.0.1366.728" timestamp="1585061539644" />
+    <state x="330" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587650681182">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="330" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1587650681182" />
+    <state x="381" y="186" key="run.anything.popup" timestamp="1592217966867">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1587234760797" />
+    <state x="381" y="186" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1592217966867" />
+    <state x="389" y="56" width="756" height="777" key="search.everywhere.popup" timestamp="1592231219308">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587495232451" />
+    <state x="389" y="56" width="756" height="777" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1592231219308" />
+  </component>
+</project>
