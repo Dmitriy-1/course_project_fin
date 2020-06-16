@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6cbf5fd-b120-4fb9-8240-0061c11edf23" name="Default Changelist" comment="" />
+    <list default="true" id="a6cbf5fd-b120-4fb9-8240-0061c11edf23" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/includes.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/includes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/quantity_in_orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/quantity_in_orders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/ticket.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/methods/Quantity_in_orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/methods/Quantity_in_orders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/methods/loadingformbd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/methods/view_maintenance_costs.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/methods/view_maintenance_costs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/methods/view_total_value_applications.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/methods/view_total_value_applications.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/screenshot_img/15876532681.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/screenshot_img/15876533317.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/screenshot_img/15876534745.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/screenshot_img/15876712321.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/screenshot_img/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/view1.HTML" beforeDir="false" afterPath="$PROJECT_DIR$/public/view1.HTML" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/view1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/public/view1.docx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +99,11 @@
     </expand>
     <select />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZYH0j4w8J98Y2xezqxpF2Jx0o8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -73,6 +112,7 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -135,12 +175,23 @@
       <workItem from="1592038341151" duration="71907000" />
       <workItem from="1592229681818" duration="2371000" />
       <workItem from="1592232120609" duration="3686000" />
-      <workItem from="1592236296323" duration="62120000" />
+      <workItem from="1592236296323" duration="66588000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="263" y="19" key="#CLI_Interpreters" timestamp="1585517385626">

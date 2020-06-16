@@ -43,10 +43,14 @@ echo '
 
 ';
 
-$text ="Отчет об общей стоимости выполненных заявок за последний месяц";
+$text ="Отчет об общей стоимости выполненных заявок за текущий месяц представленны в виде суммы всех выполненнных заявок
+на всех станциях моек работавщих в текущем месяце
+";
 
 $section->addText(htmlspecialchars($text));
 $section->addText(htmlspecialchars($view[0][0]));
+$text ="рублей";
+$section->addText(htmlspecialchars($text));
 
 
 

@@ -14,13 +14,21 @@ class Includes
 
     function set_include()
     {
+        $id_a=$_SESSION['user']->id_a;
         global $pdo;
-        $sql = 'select * from includes';
+        $sql = 'SELECT * FROM includes I INNER JOIN (select id_r from request R INNER JOIN administrator A on R.id_a=:id_a) W
+on I.id_r=W.id_r';
         $request = $pdo->prepare($sql);
+        $request->bindParam(':id_a', $id_a);
         $request->execute();
         $data = $request->fetchAll();
         return $data;
     }
+
+
+
+
+
     function set_include_request($id_r){
         $this->id_r=$id_r;
         global $pdo;

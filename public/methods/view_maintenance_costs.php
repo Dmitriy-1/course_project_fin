@@ -47,11 +47,12 @@ echo '
 
 ';
 
-$text ="Отчет о затраты на обслуживание за текущий месяц";
+$text ="Отчет о затратах на обслуживание за текущий месяц включающих в себя стоимость всх выполненных заказов";
 
 $section->addText(htmlspecialchars($text));
 $section->addText(htmlspecialchars($view[0][0]));
-
+$text ="рублей";
+$section->addText(htmlspecialchars($text));
 
 
 

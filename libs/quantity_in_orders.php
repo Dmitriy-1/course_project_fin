@@ -14,12 +14,24 @@ class Quantity_in_orders{
         $this->order_quantity = trim($_POST['order_quantity']);
     }
 
-    function set_orders()
+    function set_orders1()
     {
         global $pdo;
         $sql = 'select * from quantity_in_orders Q inner join (select order_number from orders O inner join 
 administrator A on O.id_a=A.id_a) F on Q.order_number=F.order_number';
         $request = $pdo->prepare($sql);
+        $request->execute();
+        $data = $request->fetchAll();
+        return $data;
+    }
+    function set_orders()
+    {
+        $id_a=$_SESSION['user']->id_a;
+        global $pdo;
+        $sql = 'select * from quantity_in_orders Q inner join (select order_number from orders O inner join 
+administrator A on O.id_a=:id_a) F on Q.order_number=F.order_number';
+        $request = $pdo->prepare($sql);
+        $request->bindParam(':id_a', $id_a);
         $request->execute();
         $data = $request->fetchAll();
         return $data;
