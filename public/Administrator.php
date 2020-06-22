@@ -2,6 +2,7 @@
 require_once('methods/connect.php');
 require('../libs/account.php');
 require('../libs/administrator.php');
+require('../libs/sinks.php');
 session_start();
 ?>
 <!DOCTYPE html>

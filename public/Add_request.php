@@ -24,53 +24,38 @@ session_start();
 <section>
     <div>
     <form action="methods/create_request.php" method="POST" class="regContent" enctype="multipart/form-data">
-
-
-        <h1 class="text_table">Таблица заявка</h1>
-        <div class="table_stile_add"  >
+        <h1 class="text_table">создание заявки</h1>
+        <div >
             <table class="table_stile_table">
                 <tr>
-                    <th class="table_list" >Ключ мойшика</th>
-                    <th class="table_list" >Ключ клиента</th>
-                    <th class="table_list" >Дата заявки</th>
-                    <th class="table_list" >Стоимость заявки</th>
-                    <th class="table_list" >Время выполнения</th>
-
+                    <th class="table_list_req" >Услуга</th>
+                    <th class="table_list_req" >Мойщик</th>
+                    <th class="table_list_req" >Дата заявки</th>
                 </tr>
                 <tr>
-                    <td class="table_list">
-                        <input class="table_title_theme" type="text" name="id_w" id="id_w" required />
+                    <td>
+                        <?php include('methods/add_services_to_request.php');?>
                     </td>
-                    <td class="table_list">
-                        <input class="table_title_theme" type="text" name="id_k" id="id_k"  required />
-                    </td>
-                    <td class="table_list">
-                        <input class="table_title_theme" type="date" name="date_time_recording" id="date_time_recording" required />
-                    </td>
-                    <td class="table_list">
-                        <input class="table_title_theme" type="text" name="full_procedure_request" id="full_procedure_request" required />
-                    </td>
-                    <td class="table_list">
-                        <input class="table_title_theme" type="time" name="application_lead_time" id="application_lead_time" required />
-                    </td>
+                    <td>
 
+                        <?php include('methods/add_washer_to_request.php');?>
+                    </td>
+                    <td>
+                        <input class="table_title_theme_date" type="date" name="date_time_recording" id="date_time_recording" required />
 
+                    </td>
                 </tr>
             </table>
+            <?php
+            if(isset($_SESSION['message'])){
+                echo'<p class="msg">' . $_SESSION['message'] . '</p>';
+            }
+            unset($_SESSION['message']);
+            ?>
         </div>
         <input type="submit" name="Ok" value="Добавить" class="button7 form__bg"></input>
     </form>
     </div>
-    <div class="message_center" >
-        <?php include('methods/Client.php') ?>
-    </div>
-    <div class="message_center" >
-        <?php include('methods/Washer.php') ?>
-    </div>
-    <div class="message_center" >
-        <?php include('methods/Services.php') ?>
-    </div>
-
 </section>
 </body>
 </html>

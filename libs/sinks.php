@@ -10,7 +10,7 @@ class Sinks{
 
         $this->washing_address = trim($_POST['washing_address']);
         $this->service_list = trim($_POST['service_list']);
-        $this->washing_contacts = trim($_POST['washing_contact']);
+        $this->washing_contacts = trim($_POST['washing_contacts']);
     }
 
     function set_sinks()
@@ -24,6 +24,60 @@ class Sinks{
         $data = $request->fetchAll();
         return $data;
     }
+    function set_sinks_addres()
+    {
+
+        global $pdo;
+        $sql = 'SELECT * FROM sinks';
+        $request = $pdo->prepare($sql);
+        $request->execute();
+        $data = $request->fetchAll();
+        return $data;
+    }
+    function set_sinks_addres_addmin($id_m)
+    {
+
+        global $pdo;
+        $sql = 'SELECT * FROM sinks WHERE id_m=:id_m';
+        $request = $pdo->prepare($sql);
+        $request->bindParam(':id_m', $id_m);
+        $request->execute();
+        $data = $request->fetchAll();
+        return $data;
+    }
+    function set_sinks_req($id_m)
+    {
+        global $pdo;
+        $sql = 'SELECT * FROM sinks WHERE id_m=:id_m';
+        $request = $pdo->prepare($sql);
+        $request->bindParam(':id_m', $id_m);
+        $request->execute();
+        $data = $request->fetchAll();
+        return $data;
+    }
+    function set_sinks_admin()
+    {
+        $this->id_m = $_SESSION['user']->id_m;
+        global $pdo;
+        $sql = 'SELECT washing_address FROM sinks WHERE id_m=:id_m';
+        $request = $pdo->prepare($sql);
+        $request->bindParam(':id_m', $this->id_m);
+        $request->execute();
+        $data = $request->fetchAll();
+        return $data;
+    }
+
+    function set_sinks_redact($address)
+    {
+        global $pdo;
+        $sql = 'SELECT * FROM sinks WHERE washing_address =:washing_address';
+        $request = $pdo->prepare($sql);
+        $request->bindParam(':washing_address',$address);
+        $request->execute();
+        $data = $request->fetchAll();
+        return $data;
+    }
+
     function set_fullsinks()
     {
         global $pdo;

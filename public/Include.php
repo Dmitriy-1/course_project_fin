@@ -24,15 +24,9 @@ session_start();
 
             <?php include('methods/Include.php') ?>
         </div>
-        <div class="btn_add">
-             <button class="button7"><a class="btn_href"  href="Add_include.php">Добавить</a>  </button>
-        </div>
+
     </div>
 
-
-    <?php include('methods/Services.php') ?>
-
-    <?php include('methods/Request.php') ?>
 </section>
 </body>
 </html>

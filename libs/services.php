@@ -23,6 +23,37 @@ class Services{
         $data = $request->fetchAll();
         return $data;
     }
+    function set_services_req($id_s)
+    {
+        global $pdo;
+        $sql = 'SELECT * FROM services WHERE id_s=:id_s';
+        $request = $pdo->prepare($sql);
+        $request->bindParam(':id_s', $id_s);
+        $request->execute();
+        $data = $request->fetchAll();
+        return $data;
+    }
+    function set_services_request($time)
+    {
+        global $pdo;
+        $sql = 'SELECT * FROM services WHERE lead_time=:lead_time';
+        $request = $pdo->prepare($sql);
+        $request->bindParam(':lead_time', $time);
+        $request->execute();
+        $data = $request->fetchAll();
+        return $data;
+    }
+
+    function set_services_request_name($name)
+    {
+        global $pdo;
+        $sql = 'SELECT id_s FROM services WHERE service_name=:service_name';
+        $request = $pdo->prepare($sql);
+        $request->bindParam(':service_name', $name);
+        $request->execute();
+        $data = $request->fetchAll();
+        return $data;
+    }
 
 
     function check_param()
@@ -79,7 +110,14 @@ class Services{
         $stmt->execute($params);
     }
 
-
+    function list_services(){
+        global $pdo;
+        $sql = 'SELECT service_name FROM services';
+        $request = $pdo->prepare($sql);
+        $request->execute();
+        $data = $request->fetchAll();
+        return $data;
+    }
 
 
 

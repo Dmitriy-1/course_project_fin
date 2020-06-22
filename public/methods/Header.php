@@ -41,9 +41,9 @@ if (isset($_SESSION['user'])) {
                     <option value=\"Orders.php\">Заказы</option>
                     <option value=\"Provider.php\">Поставщик</option>
                     <option value=\"Services.php\">Услуги</option>
-                    <option value=\"Quantity_in_orders.php\">Количество средств в заказе</option>
+                    <!--<option value=\"Quantity_in_orders.php\">Количество средств в заказе</option>-->
                     <option value=\"Detergents.php\">Моющие средства</option>
-                    <option value=\"Include.php\">Включает</option>
+                    <!--<option value=\"Include.php\">Включает</option>-->
                 </select>
                 </li>
             <li class=\"action_method\"> <select onchange=\"document . location = this . options[this . selectedIndex] . value\">
@@ -64,7 +64,7 @@ if (isset($_SESSION['user'])) {
                     <option value=\"Sinks.php\">Мойка</option>
                     <option value=\"Orders.php\">Заказы</option>
                     <option value=\"Provider.php\">Поставщик</option>
-                    <option value=\"Quantity_in_orders.php\">Количество средств в заказе</option>
+                    <!--<option value=\"Quantity_in_orders.php\">Количество средств в заказе</option>-->
                     <option value=\"Detergents.php\">Моющие средства</option>
                 </select>
                 </li>
@@ -86,7 +86,7 @@ if (isset($_SESSION['user'])) {
             <li class=\"action_method\"> <select onchange=\"document . location = this . options[this . selectedIndex] . value\">
                     <option selected disabled value=\"#\">Отчеты</option>
                     <option value = \"execute_view.php\" > Общая стоимость выполненных заявок </option >
-                    <option value =\"execute_view2.php\"> Затраты на обслуживание </option >
+                    <option value =\"execute_view2.php\"> Затраты на обслуживание </option >    
                 </select >
             </li >
         </ul>";

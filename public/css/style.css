@@ -25,10 +25,18 @@ body{
 }
 .table_stile_table{
     border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
 }
 .table_title_req{
     width: 140px;
     border: 1px solid black;
+}
+.table_list_req{
+    text-align: center;
+    padding: 3px;
+    border: 1px solid black;
+    width: 200px;
 }
 .table_view{
     display: flex;
@@ -50,6 +58,30 @@ body{
 .table_cont_table{
     display: flex;
     justify-content: center;
+}
+.list_services{
+    width: 200px;
+}
+.list_washer{
+    width: 200px;
+}
+.table_title_theme_date{
+    width: 200px;
+}
+.list_det_orders{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+.table_title_deter{
+    width: 240px;
+    border: 1px solid black;
+}
+.table_title_orders{
+    width: 190px;
+    border: 1px solid black;
+
+
 }
 
 p{

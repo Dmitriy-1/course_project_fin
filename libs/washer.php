@@ -37,6 +37,18 @@ class Washer{
         return $data;
     }
 
+    function set_washers_req($id_w)
+    {
+        global $pdo;
+        $sql = 'SELECT * FROM washer WHERE id_w=:id_w';
+        $request = $pdo->prepare($sql);
+        $request->bindParam(':id_w', $id_w);
+        $request->execute();
+        $data = $request->fetchAll();
+        return $data;
+    }
+
+
     function check_param()
     {
         $this->id_w=trim($_POST['id_w']);

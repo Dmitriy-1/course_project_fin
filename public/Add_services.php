@@ -32,7 +32,7 @@ session_start();
                         <input class="table_title_theme" type="text" name="service_name" id="service_name" required />
                     </td>
                     <td class="table_list">
-                        <input class="table_title_theme" type="text" name="lead_time" id="lead_time" required />
+                        <input class="table_title_theme" type="time" name="lead_time" id="lead_time" required />
                     </td>
                     <td class="table_list">
                         <input class="table_title_theme" type="text" name="price_service" id="price_service" required />

@@ -15,7 +15,7 @@ class Administrator{
 
     function admin_cont()
     {
-        $this->id_m = trim($_POST['id_m']);
+        $this->id_m = trim($_POST['list_address']);
         $this->name_administrator = trim($_POST['name_administrator']);
         $this->surname_a = trim($_POST['surname_a']);
         $this->patronymic_a = trim($_POST['patronymic_a']);

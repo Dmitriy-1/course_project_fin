@@ -12,20 +12,6 @@ class Request{
     public $status_request;
 
 
-
-
-
-
-    function request_cont()
-    {
-        $this->id_w= trim($_POST['id_w']);
-        $this->id_k= trim($_POST['id_k']);
-        $this->date_time_recording= trim($_POST['date_time_recording']);
-        $this->full_procedure_request= trim($_POST['full_procedure_request']);
-        $this->application_lead_time= trim($_POST['application_lead_time']);
-        $this->status_request='В работе';
-    }
-
     function set_request(){
         $this->id_a=$_SESSION['user']->id_a;
         global $pdo;
@@ -56,22 +42,9 @@ class Request{
         $data = $request->fetchAll();
         return $data;
     }
+    function check_pole(){
 
-
-
-
-    function check_param(){
-        $this->id_r = trim($_POST['id_r']);
-        $this->id_a = trim($_POST['id_a']);
-        $this->id_m = trim($_POST['id_m']);
-        $this->id_w = trim($_POST['id_w']);
-        $this->date_time_recording = trim($_POST['date_time_recording']);
-        $this->full_procedure_request = trim($_POST['full_procedure_request']);
-        $this->application_lead_time = trim($_POST['application_lead_time']);
-        $this->status_request = trim($_POST['status_request']);
-        if(trim($_POST['id_r']) && trim($_POST['id_a'])&&trim($_POST['id_m'])&&trim($_POST['id_w'])
-            &&trim($_POST['date_time_recording'])&&trim($_POST['full_procedure_request'])
-            &&trim($_POST['application_lead_time'])&&trim($_POST['status_request'])){
+        if(trim($_POST['list_washer']) && trim($_POST['list_services'])&&trim($_POST['date_time_recording'])){
         } else {
             throw new Exception('Пожалуйста, заполните все поля.');
         }
@@ -79,9 +52,29 @@ class Request{
 
 
 
-    function create_request(){
+    function check_param(){
+        $this->id_r = trim($_POST['id_r']);
+        $this->id_w = trim($_POST['list_washer']);
+        $this->date_time_recording = trim($_POST['date_time_recording']);
+        $this->status_request = trim($_POST['list_status']);
+        if(trim($_POST['list_washer']) &&trim($_POST['date_time_recording'])&&trim($_POST['list_status'])){
+        } else {
+            throw new Exception('Пожалуйста, заполните все поля.');
+        }
+    }
+
+
+
+    function create_request($id_w,$lead_time,$price,$date){
         $this->id_a=$_SESSION['user']->id_a;
-       $this->id_m=$_SESSION['user']->id_m;
+        $this->id_m=$_SESSION['user']->id_m;
+        $this->id_k=$_SESSION['client'];
+        $this->id_w=$id_w;
+        $this->application_lead_time=$lead_time;
+        $this->full_procedure_request=$price;
+        $this->date_time_recording=$date;
+        $this->status_request='В работе';
+
         global $pdo;
         $sql = 'INSERT INTO request( id_a, id_m, id_w, id_k, date_time_recording, full_procedure_request, 
             application_lead_time, status_request)
@@ -102,17 +95,12 @@ class Request{
 
     function update_request(){
         global $pdo;
-        $sql = 'UPDATE request   SET   id_m=:id_m, id_w=:id_w,status_request=:status_request,date_time_recording=:date_time_recording,
-                    full_procedure_request=:full_procedure_request,application_lead_time=:application_lead_time
-         
- WHERE id_r=:id_r';
+        $sql = 'UPDATE request   SET    id_w=:id_w,status_request=:status_request,
+date_time_recording=:date_time_recording WHERE id_r=:id_r';
         $params = [
             ':id_r' => $this->id_r,
-            ':id_m' => $this->id_m,
             ':id_w' =>  $this->id_w,
             ':date_time_recording' => $this->date_time_recording,
-            ':full_procedure_request' =>  $this->full_procedure_request,
-            ':application_lead_time' =>  $this->application_lead_time,
             ':status_request' =>  $this->status_request
         ];
         $stmt = $pdo->prepare($sql);

@@ -1,6 +1,7 @@
 <?php
 require('../libs/administrator.php');
 require('../libs/account.php');
+require('../libs/sinks.php');
 session_start();
 ?>
 <!DOCTYPE html>
@@ -22,7 +23,9 @@ session_start();
         <div class="table_stile_add"  >
             <table class="table_stile_table">
                 <tr>
-                    <th class="table_list" >Ключ мойки</th>
+
+
+                    <th class="table_list" >Адресс мойки</th>
                     <th class="table_list" >Фамилия </th>
                     <th class="table_list" >Имя </th>
                     <th class="table_list" >Отчество </th>
@@ -32,9 +35,11 @@ session_start();
 
                 </tr>
                 <tr>
+
                     <td class="table_list">
-                        <input class="table_title_theme" type="text" name="id_m" id="id_m" required />
-                    </td>
+                        <?php include('methods/add_address_admin.php') ?>
+                        <!--<input class="table_title_theme" type="text" name="id_m" id="id_m" required />
+                   --> </td>
                     <td class="table_list">
                         <input class="table_title_theme" type="text" name="surname_a" id="surname_a" required />
                     </td>

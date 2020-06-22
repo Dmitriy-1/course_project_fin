@@ -56,16 +56,16 @@ administrator A on O.id_a=:id_a) F on Q.order_number=F.order_number';
     }
 
 
-    function create_qorders()
+    function create_qorders($order_number,$id_det,$col)
     {
 
         global $pdo;
         $sql = 'INSERT INTO quantity_in_orders(order_number, detergent_code, order_quantity)
     VALUES ( :order_number, :detergent_code, :order_quantity);';
         $params = [
-            ':order_number' => $this->order_number,
-            ':detergent_code' => $this->detergent_code,
-            ':order_quantity' => $this->order_quantity
+            ':order_number' => $order_number,
+            ':detergent_code' => $id_det,
+            ':order_quantity' => $col
         ];
         $stmt = $pdo->prepare($sql);
         $stmt->execute($params);

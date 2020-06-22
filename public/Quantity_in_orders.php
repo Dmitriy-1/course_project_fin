@@ -34,9 +34,7 @@ session_start();
     </div>
 
     ';
-                 include('methods/Orders.php');
 
-     include('methods/Detergents.php');
             }
 
 

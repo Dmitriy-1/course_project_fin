@@ -1,11 +1,8 @@
 <?php
 require_once('methods/connect.php');
 require('../libs/account.php');
-require('../libs/request.php');
-require('../libs/inquiries_client.php');
-require('../libs/services.php');
-require('../libs/washer.php');
-require('../libs/sinks.php');
+require('../libs/orders.php');
+require('../libs/detergents.php');
 session_start();
 ?>
 <!DOCTYPE html>
@@ -13,7 +10,6 @@ session_start();
 <head>
     <meta charset="utf-8"
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <title>Авторизация и регистрация</title>-->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body style="background-image:url(img/background.png)">
@@ -23,18 +19,16 @@ session_start();
     </div>
 </header>
 <section class="section-posters">
-
-
-    <?php include('methods/Request.php') ?>
-
     <?php
-    if(isset($_SESSION['message'])){
-        echo'<p class="msg">' . $_SESSION['message'] . '</p>';
-    }
-    unset($_SESSION['message']);
+
+        include('methods/List_detegrent.php');
+        echo '</div>
+        <div class="btn_add">
+            <button class="button7"><a class="btn_href"  href="Add_orders.php">Добавить</a>  </button>
+        </div>
+    </div>';
+
     ?>
-
-
 </section>
 </body>
 </html>

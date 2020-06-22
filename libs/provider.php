@@ -30,6 +30,16 @@ class Provider{
         $data = $request->fetchAll();
         return $data;
     }
+    function set_provider_list()
+    {
+
+        global $pdo;
+        $sql = 'SELECT * FROM provider ';
+        $request = $pdo->prepare($sql);
+        $request->execute();
+        $data = $request->fetchAll();
+        return $data;
+    }
 
 
 

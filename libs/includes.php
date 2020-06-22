@@ -44,15 +44,14 @@ on I.id_r=W.id_r';
 
 
 
-    function create_include()
+    function create_include($id_r,$id_s)
     {
-
         global $pdo;
         $sql = 'INSERT INTO includes (id_s, id_r)
     VALUES ( :id_s, :id_r);';
         $params = [
-            ':id_s' => $this->id_s,
-            ':id_r' => $this->id_r
+            ':id_s' => $id_s,
+            ':id_r' => $id_r
         ];
         $stmt = $pdo->prepare($sql);
         $stmt->execute($params);

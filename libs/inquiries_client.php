@@ -23,14 +23,26 @@ class Inquiries{
         $data = $request->fetchAll();
         return $data;
     }
+    function set_client_req($id_k){
+        global $pdo;
+        $sql = 'SELECT * FROM client WHERE id_k=:id_k';
+        $request = $pdo->prepare($sql);
+        $request->bindParam(':id_k', $id_k);
+        $request->execute();
+        $data = $request->fetchAll();
+        return $data;
+    }
+
+
+
 
     function check_param(){
-        $this->id_k = trim($_POST['id_K']);
+        $this->id_k=trim($_POST['id_K']);
         $this->phone_number = trim($_POST['phone_number']);
         $this->name_k = trim($_POST['name_client']);
         $this->surname_k = trim($_POST['surname_client']);
         $this->patronymic_k = trim($_POST['patronymic_k']);
-        if(trim($_POST['id_K']) && trim($_POST['phone_number'])&&trim($_POST['name_client'])&&
+        if(trim($_POST['id_K'])&&trim($_POST['phone_number'])&&trim($_POST['name_client'])&&
             trim($_POST['surname_client'])&&trim($_POST['patronymic_k'])){
 
         } else {

@@ -5,7 +5,6 @@ session_start();
 
 $client = new Inquiries();
 $client->client_cont();
-$_SESSION['client'] = $client;
 $client->create_client();
 header('Location: ../Client.php');
 

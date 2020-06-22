@@ -29,7 +29,6 @@ session_start();
             <button class="button7"><a class="btn_href"  href="Add_orders.php">Добавить</a>  </button>
         </div>
     </div>';
-     include('methods/Provider.php') ;
 
     }?>
 </section>

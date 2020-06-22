@@ -23,6 +23,16 @@ class Detergents
         $data = $request->fetchAll();
         return $data;
     }
+    function set_detergents_order($name)
+    {
+        global $pdo;
+        $sql = 'select * from detergents Where name_funds=:name_funds ';
+        $request = $pdo->prepare($sql);
+        $request->bindParam(':name_funds', $name);
+        $request->execute();
+        $data = $request->fetchAll();
+        return $data;
+    }
 
 
     function check_param()
